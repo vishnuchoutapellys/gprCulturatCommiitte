@@ -81,8 +81,8 @@ app.post('/api/participants/download', (req, res) => {
   try{
     const { password } = req.body || {}
     // simple shared-secret check (change to env var in production)
-    if(password !== 'LGP@2026'){
-      return res.status(401).json({ success: false, error: 'your not authorised person to download' })
+    if(password !== 'GPR@2026'){
+      return res.status(401).json({ success: false, error: 'you are not authorized to download' })
     }
     if(!fs.existsSync(FILE_PATH)) return res.status(404).json({ success: false, error: 'No participants file found' })
     return res.download(FILE_PATH, 'participants.xlsx')

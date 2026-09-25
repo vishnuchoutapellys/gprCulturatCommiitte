@@ -28,7 +28,7 @@ try{
 }catch{}
 
 const events = [
-  {date:'12/09/2026',title:'Ganesh Maharaj Aagaman',time:'Morning 11:15 AM • Evening 5:00 PM',desc:'Morning 11:15AM\nRaata/Mandap Modati Stamba, \n\nEvening 5PM\nMaharaaj Aagaman at LGP’s Vinayaka Mandapam', image: agamanImg},
+  {date:'12/09/2026',title:'Ganesh Maharaj Aagaman',time:'Morning 11:15 AM • Evening 5:00 PM',desc:'Morning 11:15AM\nRaata/Mandap Modati Stamba, \n\nEvening 5PM\nMaharaaj Aagaman at GPR’s Vinayaka Mandapam', image: agamanImg},
   {date:'14/09/2026',title:'Ganesh Sthapana',time:'Evening',desc:'Lord Ganesha’s Pranaprathista and Pooja ceremony', image: circleImg},
   {date:'15/09/2026 - 19/09/2026',title:'Daily Pooja',time:'Morning 9:00 AM & Evening 7:00 PM',desc:'Daily rituals and aarti', image: poojaImg},
   {date:'15/09/2026 - 19/09/2026',title:'Cultural Evening',time:'6:00 PM',desc:'Music and dance performances', image: culturalevent},

@@ -13,7 +13,7 @@ export default function RSVPForm(){
   const [downloadPwd, setDownloadPwd] = useState('')
   const [pwdError, setPwdError] = useState<string | null>(null)
   const [downloading, setDownloading] = useState(false)
-  const LOCAL_DOWNLOAD_PASSWORD = 'LGP@2026'
+  const LOCAL_DOWNLOAD_PASSWORD = 'GPR@2026'
 
   // Resolve API base robustly for both submit and download handlers
   const resolveApiBase = ()=>{

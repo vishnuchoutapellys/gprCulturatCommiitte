@@ -1,4 +1,4 @@
-# LGP Association — Ganesh Chaturthi 2026
+# GPR Cultural Committee — Ganesh Chaturthi 2026
 
 This is a Vite + React + TypeScript project scaffold for a one-page Ganesh Chaturthi association website.
 
@@ -17,7 +17,7 @@ npm run preview
 ```
 
 Notes:
-- Edit `src/data/siteConfig.ts` to update association-specific information.
+- Edit `src/data/siteConfig.ts` to update association-specific information (now GPR Cultural Committee).
 - Assets are in `src/assets/` and `src/assets/gallery`.
 - Form submissions are local-only — connect a backend to `RSVPForm` for persistence.
  

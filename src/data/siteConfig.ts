@@ -20,9 +20,9 @@ import altImg from '../assets/committee/alt.jpg'
 
 
 export const siteConfig = {
-  associationName: 'LGP Owners Cultural Committee',
-  eventName: 'Lahari Green Park Ganesh Chaturthi Celebrations 2026',
-  placeName: 'Lahari Green Park, Bowrampet, Telangana',
+  associationName: 'GPR Cultural Committee',
+  eventName: 'GPR Ganesh Chaturthi Celebrations 2026',
+  placeName: 'GPR, Bowrampet, Telangana',
   // Primary start (Sthapana) date/time for countdown
   eventDateISO: '2026-09-14T18:00:00',
   // Full celebration range
@@ -33,7 +33,7 @@ export const siteConfig = {
   sthapanaDate: '14/09/2026',
   venue: {
     name: 'Lahari Green Park',
-    address: 'Vinayaka Mandapam, Association Office, LGP, Bowrampet, 500043, Telangana',
+    address: 'Vinayaka Mandapam, Association Office, GPR, Bowrampet, 500043, Telangana',
     mapsUrl: 'https://maps.app.goo.gl/baovJgUUfrgeZ2Wu6'
   },
   contact: {
@@ -58,7 +58,7 @@ export const siteConfig = {
 
 // Detailed event copy and donation requirements (actual details provided)
 export const eventDetails = {
-  intro: `🙏🌺 GANESH CHATURTHI 2026 – DONOR & SPONSORSHIP INVITATION 🌺🙏\n\nWith the blessings of Lord Ganesha, our Lahari Green Park community is celebrating 7 Days of Ganesh Chaturthi from September 14th to September 20th, 2026.\nSthapana: 14/09/2026\n\nThe celebrations will include daily Pooja & Aarti, cultural programs, devotional activities, community events, and Grand Annadanam on September 20th afternoon.`,
+  intro: `🙏🌺 GANESH CHATURTHI 2026 – DONOR & SPONSORSHIP INVITATION 🌺🙏\n\nWith the blessings of Lord Ganesha, our GPR community is celebrating 7 Days of Ganesh Chaturthi from September 14th to September 20th, 2026.\nSthapana: 14/09/2026\n\nThe celebrations will include daily Pooja & Aarti, cultural programs, devotional activities, community events, and Grand Annadanam on September 20th afternoon.`,
   annadanamDate: '2026-09-20',
   donationMethodsNote: 'DONATIONS CAN BE IN CASH, UPI OR IN KIND.',
   donationRequirements: [
@@ -115,9 +115,9 @@ export const siteAssets = {
   logo: logoImg,
   heroImage: photoChoices.hero,
   committeeMembers: [
-    { name: 'Murali Garu', role: 'EC Member, LGP Owners Welfare Association', phone: '+919949292259', img: altImg },
-    { name: 'Srinivas Reddy ', role: 'EC Member, LGP Owners Welfare Association', phone: '+919245884217', img: altImg },
-    { name: 'Prasanth', role: 'EC Member, LGP Owners Welfare Association', phone: '+919000311123', img: altImg },
+    { name: 'Murali Garu', role: 'EC Member, GPR Owners Welfare Association', phone: '+919949292259', img: altImg },
+    { name: 'Srinivas Reddy ', role: 'EC Member, GPR Owners Welfare Association', phone: '+919245884217', img: altImg },
+    { name: 'Prasanth', role: 'EC Member, GPR Owners Welfare Association', phone: '+919000311123', img: altImg },
     { name: 'Thirupathi YSR', role: '', phone: '+918499984555', img: tirupathiImg },
     { name: 'Jaswanth ', role: '', phone: '+919866099677', img: jaswanthImg },
     { name: 'Aravind ', role: '', phone: '+916281116559', img: aravindImg },
