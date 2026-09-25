@@ -22,18 +22,18 @@ import altImg from '../assets/committee/alt.jpg'
 export const siteConfig = {
   associationName: 'GPR Cultural Committee',
   eventName: 'GPR Ganesh Chaturthi Celebrations 2026',
-  placeName: 'GPR, Bowrampet, Telangana',
+  placeName: 'Vijaya Durga Colony, GPR layout, Bachupally, Hyderabad',
   // Primary start (Sthapana) date/time for countdown
   eventDateISO: '2026-09-14T18:00:00',
   // Full celebration range
   eventRange: {
     start: '14/09/2026',
-    end: '20/09/2026'
+    end: '23/09/2026'
   },
   sthapanaDate: '14/09/2026',
   venue: {
     name: 'Lahari Green Park',
-    address: 'Vinayaka Mandapam, Association Office, GPR, Bowrampet, 500043, Telangana',
+    address: 'Vijaya Durga Colony, GPR layout, Bachupally, Hyderabad',
     mapsUrl: 'https://maps.app.goo.gl/baovJgUUfrgeZ2Wu6'
   },
   contact: {
