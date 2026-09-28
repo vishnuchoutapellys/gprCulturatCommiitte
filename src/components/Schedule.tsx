@@ -19,7 +19,7 @@ try{
 
 let nimarjan = ''
 try{
-  nimarjan = new URL('../assets/nimarjan.jpg', import.meta.url).href
+  nimarjan = new URL('../assets/nimarjan.png', import.meta.url).href
 }catch{}
 
 let agamanImg = ''
@@ -27,16 +27,46 @@ try{
   agamanImg = new URL('../assets/agaman.jpg', import.meta.url).href
 }catch{}
 
+let annadanamImg = ''
+try{
+  annadanamImg = new URL('../assets/annadanam.png', import.meta.url).href
+}catch{}
+
+let saraswatiPoojaImg = ''
+try{
+  saraswatiPoojaImg = new URL('../assets/saraswathi.png', import.meta.url).href
+}catch{}
+
+let AstaGanapathiPoojaImg = ''
+try{
+  AstaGanapathiPoojaImg = new URL('../assets/astaganapathi.png', import.meta.url).href
+}catch{}
+
+let HomamImg = ''
+try{
+  HomamImg = new URL('../assets/homam.png', import.meta.url).href
+}catch{}
+
+let stallaImg = ''
+try{
+  stallaImg = new URL('../assets/stalls.png', import.meta.url).href
+}catch{}
+
+let karchanaImg = ''
+try{
+  karchanaImg = new URL('../assets/karchana.png', import.meta.url).href
+}catch{}
+
 const events = [
   {date:'14/09/2026',title:'Ganesh Sthapana',time:'Evening',desc:'Lord Ganesha’s Pranaprathista and Pooja ceremony', image: circleImg},
   {date:'15/09/2026 - 23/09/2026',title:'Daily Pooja',time:'Morning 8:00 AM & Evening 7:00 PM',desc:'Daily rituals and aarti', image: poojaImg},
   {date:'15/09/2026 - 23/09/2026',title:'Cultural Evening',time:'6:00 PM',desc:'Music and dance performances', image: culturalevent},
-  {date:'17/09/2026',title:'Saraswati Pooja',time:'Evening 7:00 PM',desc:'Special ritual dedicated to Goddess Saraswati', image: poojaImg},
-  {date:'18/09/2026',title:'Asta Ganapathi Pooja',time:'Evening 7:00 PM',desc:'Special ritual dedicated to the eight forms of Lord Ganapathi', image: poojaImg},
-  {date:'19/09/2026',title:'Maha Ganapathi Homam',time:'Morning 7:00 AM',desc:'Special ritual dedicated to Lord Ganapathi', image: poojaImg},
-  {date:'20/09/2026',title:'Grand Annadanam',time:'Evening 7:00 PM',desc:'Community annadanam and cultural programs', image: circleImg},
-  {date:'21/09/2026',title:'Stalls & Magical Show',time:'All Day',desc:'Various stalls and activities for participants', image: circleImg},
-  {date:'22/09/2026',title:'Kunkuma Archana',time:'Evening',desc:'Special ritual involving Kunkuma Archana', image: poojaImg},
+  {date:'17/09/2026',title:'Saraswati Pooja',time:'Evening 7:00 PM',desc:'Special ritual dedicated to Goddess Saraswati', image: saraswatiPoojaImg},
+  {date:'18/09/2026',title:'Asta Ganapathi Pooja',time:'Evening 7:00 PM',desc:'Special ritual dedicated to the eight forms of Lord Ganapathi', image: AstaGanapathiPoojaImg},
+  {date:'19/09/2026',title:'Maha Ganapathi Homam',time:'Morning 7:00 AM',desc:'Special ritual dedicated to Lord Ganapathi', image: HomamImg},
+  {date:'20/09/2026',title:'Grand Anna Prasadam',time:'Evening 7:00 PM',desc:'Community annadanam and cultural programs', image: annadanamImg},
+  {date:'21/09/2026',title:'Stalls & Magical Show',time:'All Day',desc:'Various stalls and activities for participants', image: stallaImg},
+  {date:'22/09/2026',title:'Kunkuma Archana',time:'Evening',desc:'Special ritual involving Kunkuma Archana', image: karchanaImg},
   {date:'23/09/2026',title:'Ganesh Nimarjanam',time:'Evening',desc:'Immersion procession', image: nimarjan}
 ]
 
