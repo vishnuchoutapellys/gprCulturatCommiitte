@@ -44,7 +44,7 @@ export default function Donation(){
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-slate-800">Annadanam (20/09/2026) contributions(Sponcered by: GOTHIC Pangea Community)</h4>
+                    <h4 className="font-semibold text-slate-800">Annadanam (23/09/2026) contributions(Sponcered by: GOTHIC Pangea Community)</h4>
                     <ul className="mt-2 list-disc pl-5 text-slate-700">
                       {eventDetails.annadanamContributions.map((a,idx)=>(<li key={idx}>{a}</li>))}
                     </ul>

@@ -13,15 +13,15 @@ const ganesh6 = new URL('../assets/ganesh6.jpg', import.meta.url).href
 const ganesh7 = new URL('../assets/ganesh7.jpg', import.meta.url).href
 const sthapanaImg = new URL('../assets/sthapana.jpg', import.meta.url).href
 
-import jaswanthImg from '../assets/committee/jaswanth.jpeg'
-import aravindImg from '../assets/committee/aravind.png'
+import dineshimg from '../assets/committee/dinesh.png'
+// import aravindImg from '../assets/committee/aravind.png'
 import altImg from '../assets/committee/alt.jpg'
 
 
 
 export const siteConfig = {
-  associationName: 'GPR Cultural Committee',
-  eventName: 'GPR Ganesh Chaturthi Celebrations 2026',
+  associationName: 'GPR Cultural Committee, Bachupally,Hyderabad',
+  eventName: 'Sri Vijaya Durga Nagar Ganesh Ustav Committee - 2026',
   placeName: 'Vijaya Durga Colony, GPR layout, Bachupally, Hyderabad',
   // Primary start (Sthapana) date/time for countdown
   eventDateISO: '2026-09-14T18:00:00',
@@ -37,8 +37,8 @@ export const siteConfig = {
     mapsUrl: 'https://maps.app.goo.gl/baovJgUUfrgeZ2Wu6'
   },
   contact: {
-    phone: '+91 84999 84555',
-    whatsapp: '+918499984555',
+    phone: '+91 9959681416',
+    whatsapp: '+91 9959681416',
     email: '[EMAIL_ADDRESS]'
   },
   donation: {
@@ -115,12 +115,21 @@ export const siteAssets = {
   logo: logoImg,
   heroImage: photoChoices.hero,
   committeeMembers: [
-    { name: 'Murali Garu', role: 'EC Member, GPR Owners Welfare Association', phone: '+919949292259', img: altImg },
-    { name: 'Srinivas Reddy ', role: 'EC Member, GPR Owners Welfare Association', phone: '+919245884217', img: altImg },
-    { name: 'Prasanth', role: 'EC Member, GPR Owners Welfare Association', phone: '+919000311123', img: altImg },
-    { name: 'Thirupathi YSR', role: '', phone: '+918499984555', img: tirupathiImg },
-    { name: 'Jaswanth ', role: '', phone: '+919866099677', img: jaswanthImg },
-    { name: 'Aravind ', role: '', phone: '+916281116559', img: aravindImg },
+    { name: 'Ramana Reddy', role: '', phone: '+919392195578', img: altImg },
+    { name: 'Shyam Singh ', role: '', phone: '+919966122654', img: altImg },
+    { name: 'Rakesh Reddy', role: '', phone: '+919553126192', img: altImg },
+    { name: 'Thirupathi Reddy', role: '', phone: '+918341779616', img: altImg },
+    { name: 'Praveen', role: '', phone: '+918886211185', img: altImg },
+    { name: 'Tripureswar', role: '', phone: '+919908802108', img: altImg },
+    { name: 'Dinesh Varma', role: '', phone: '+919959681416', img: dineshimg },
+    { name: 'Murali', role: '', phone: '+919494000300', img: altImg },
+    { name: 'Lavan', role: '', phone: '+919010442950', img: altImg },
+    { name: 'Jay Ramreddy', role: '', phone: '+918500207895', img: altImg },
+    { name: 'Rami Reddy', role: '', phone: '+918008493887', img: altImg },
+    { name: 'Hari Prasad', role: '', phone: '+919701031756', img: altImg },
+
+
+
   ],
   // Gallery files: prefer local images in `src/assets/` named ganesha1.jpg..ganesha8.jpg
   // If those files are not present, fall back to Unsplash queries defined above.

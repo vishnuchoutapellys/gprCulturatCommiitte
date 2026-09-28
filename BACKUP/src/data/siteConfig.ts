@@ -37,8 +37,8 @@ export const siteConfig = {
     mapsUrl: 'https://maps.app.goo.gl/baovJgUUfrgeZ2Wu6'
   },
   contact: {
-    phone: '+91 84999 84555',
-    whatsapp: '+918499984555',
+    phone: '+91 9959681416',
+    whatsapp: '+91 9959681416',
     email: '[EMAIL_ADDRESS]'
   },
   donation: {

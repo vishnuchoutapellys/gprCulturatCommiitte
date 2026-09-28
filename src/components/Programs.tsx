@@ -1,12 +1,15 @@
 import React from 'react'
 
 const programs=[
-  {title:'Classical Dance',desc:'Bharatanatyam and other forms'},
   {title:'Folk Dance',desc:'Traditional folk performances'},
   {title:'Music',desc:'Carnatic & devotional music'},
-  {title:'Bhajans',desc:'Bhajanas at Lord Ganesh Mandap.'},
-  {title:'Kids Performances',desc:'Children shows and competitions'},
-  {title:'Hanuman Chalisa',desc:'Devotional prayer and recitation'}
+  {title:'Annadanam',desc:'Community feast and offerings to Lord Ganesh'},
+  {title:'Musical chair',desc:'Fun musical chair game for participants'},
+  {title:'stalls',desc:'Various stalls for food, games, and merchandise'},
+  {title:'Laddu Lucky Dip',desc:'Participants can try their luck to win laddus'},
+  {title:'Magical Show',desc:'A magical performance to entertain the audience'},
+  {title:'Ganapathi Homam',desc:'A special ritual performed for Lord Ganesh'},
+  {title:'Saraswati Pooja',desc:'A special ritual dedicated to Goddess Saraswati'}
 
 ]
 
