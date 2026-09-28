@@ -19,7 +19,7 @@ const items = [
   {title:'Daily Pooja', image: poojaImg || ''},
   {title:'Cultural Programs', image: culturalImg || ''},
   {title:'Community Gathering', image: communityImg || ''},
-  {title:'Annadanam', image: annadanamImg || ''},
+  {title:'AnnaPrasadam', image: annadanamImg || ''},
   {title:'Nimarjanam', image: NimarjanamImg || ''}
 ]
 

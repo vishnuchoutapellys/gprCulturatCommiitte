@@ -25,7 +25,7 @@ const events = [
   {date:'14/09/2026',title:'Ganesh Sthapana',time:'Evening',desc:'Inaugural installation ceremony', image: circleImg},
   {date:'15/09/2026 - 19/09/2026',title:'Daily Pooja',time:'Morning 9:00 AM & Evening 7:00 PM',desc:'Daily rituals and aarti', image: poojaImg},
   {date:'15/09/2026 - 19/09/2026',title:'Cultural Evening',time:'6:00 PM',desc:'Music and dance performances', image: culturalevent},
-  {date:'23/09/2026',title:'Grand Annadanam',time:'Afternoon',desc:'Community annadanam and cultural programs', image: circleImg},
+  {date:'23/09/2026',title:'Grand Anna Prasadam',time:'Afternoon',desc:'Community annadanam and cultural programs', image: circleImg},
   {date:'23/09/2026',title:'Ganesh Nimarjanam',time:'Evening',desc:'Immersion procession', image: nimarjan}
 ]
 
