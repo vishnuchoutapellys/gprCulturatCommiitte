@@ -46,14 +46,14 @@ export default function Header(){
           </div>
           <div>
             <div className={`font-display text-lg ${scrolled ? 'text-slate-800' : 'text-white'}`}>{siteConfig.associationName}</div>
-            <div className={`${scrolled ? 'text-slate-600' : 'text-amber-200'} text-xs`}>{siteConfig.placeName}</div>
+            {/* <div className={`${scrolled ? 'text-slate-600' : 'text-amber-200'} text-xs`}>{siteConfig.placeName}</div> */}
           </div>
         </div>
         <nav className="hidden md:flex gap-6 items-center">
           {nav.map(n=> (
             <button key={n} onClick={()=>handleNav(n)} className={`focus:outline-none transition ${scrolled ? 'text-slate-800 hover:text-saffron' : 'text-white hover:text-amber-200'}`}>{n}</button>
           ))}
-          <a href="#rsvp" className={`ml-4 px-4 py-2 rounded shadow ${scrolled ? 'bg-saffron text-white' : 'bg-amber-400 text-white'}`}>Join Us</a>
+          <a href="#rsvp" style={{ width: '100px' }} className={`ml-4 px-4 py-2 rounded shadow ${scrolled ? 'bg-saffron text-white' : 'bg-amber-400 text-white'}`}>Join Us</a>
         </nav>
 
         <button

@@ -28,12 +28,16 @@ try{
 }catch{}
 
 const events = [
-  {date:'12/09/2026',title:'Ganesh Maharaj Aagaman',time:'Morning 11:15 AM • Evening 5:00 PM',desc:'Morning 11:15AM\nRaata/Mandap Modati Stamba, \n\nEvening 5PM\nMaharaaj Aagaman at GPR’s Vinayaka Mandapam', image: agamanImg},
   {date:'14/09/2026',title:'Ganesh Sthapana',time:'Evening',desc:'Lord Ganesha’s Pranaprathista and Pooja ceremony', image: circleImg},
-  {date:'15/09/2026 - 19/09/2026',title:'Daily Pooja',time:'Morning 9:00 AM & Evening 7:00 PM',desc:'Daily rituals and aarti', image: poojaImg},
-  {date:'15/09/2026 - 19/09/2026',title:'Cultural Evening',time:'6:00 PM',desc:'Music and dance performances', image: culturalevent},
-  {date:'20/09/2026',title:'Grand Annadanam',time:'Afternoon',desc:'Community annadanam and cultural programs', image: circleImg},
-  {date:'20/09/2026',title:'Ganesh Nimarjanam',time:'Evening',desc:'Immersion procession', image: nimarjan}
+  {date:'15/09/2026 - 23/09/2026',title:'Daily Pooja',time:'Morning 8:00 AM & Evening 7:00 PM',desc:'Daily rituals and aarti', image: poojaImg},
+  {date:'15/09/2026 - 23/09/2026',title:'Cultural Evening',time:'6:00 PM',desc:'Music and dance performances', image: culturalevent},
+  {date:'17/09/2026',title:'Saraswati Pooja',time:'Evening 7:00 PM',desc:'Special ritual dedicated to Goddess Saraswati', image: poojaImg},
+  {date:'18/09/2026',title:'Asta Ganapathi Pooja',time:'Evening 7:00 PM',desc:'Special ritual dedicated to the eight forms of Lord Ganapathi', image: poojaImg},
+  {date:'19/09/2026',title:'Maha Ganapathi Homam',time:'Morning 7:00 AM',desc:'Special ritual dedicated to Lord Ganapathi', image: poojaImg},
+  {date:'20/09/2026',title:'Grand Annadanam',time:'Evening 7:00 PM',desc:'Community annadanam and cultural programs', image: circleImg},
+  {date:'21/09/2026',title:'Stalls & Magical Show',time:'All Day',desc:'Various stalls and activities for participants', image: circleImg},
+  {date:'22/09/2026',title:'Kunkuma Archana',time:'Evening',desc:'Special ritual involving Kunkuma Archana', image: poojaImg},
+  {date:'23/09/2026',title:'Ganesh Nimarjanam',time:'Evening',desc:'Immersion procession', image: nimarjan}
 ]
 
 export default function Schedule(){

@@ -22,7 +22,7 @@ import altImg from '../assets/committee/alt.jpg'
 export const siteConfig = {
   associationName: 'LGP Owners Cultural Committee',
   eventName: 'Lahari Green Park Ganesh Chaturthi Celebrations 2026',
-  placeName: 'Lahari Green Park, Bowrampet, Telangana',
+  placeName: 'Vijaya Durga Colony, GPR layout, Bachupally, Hyderabad',
   // Primary start (Sthapana) date/time for countdown
   eventDateISO: '2026-09-14T18:00:00',
   // Full celebration range
@@ -33,12 +33,12 @@ export const siteConfig = {
   sthapanaDate: '2026-09-14',
   venue: {
     name: 'Lahari Green Park',
-    address: 'Vinayaka Mandapam, Association Office, LGP, Bowrampet, 500043, Telangana',
+    address: 'Vijaya Durga Colony, GPR layout, Bachupally, Hyderabad',
     mapsUrl: 'https://maps.app.goo.gl/baovJgUUfrgeZ2Wu6'
   },
   contact: {
-    phone: '+91 84999 84555',
-    whatsapp: '+918499984555',
+    phone: '+91 9959681416',
+    whatsapp: '+91 9959681416',
     email: '[EMAIL_ADDRESS]'
   },
   donation: {

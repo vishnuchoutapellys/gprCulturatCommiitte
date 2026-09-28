@@ -1,14 +1,9 @@
 import React from 'react'
 import { siteAssets, siteConfig } from '../data/siteConfig'
-import srinivasGoud from '../assets/committee/srinivas-goud.jpeg'
-import nageshwar from '../assets/committee/nageshwar.png'
-import vishnuImg from '../assets/committee/vishnu.jpeg'
-import raviImg from '../assets/committee/ravi.jpeg'
-import srinivasImg from '../assets/committee/srinivas.jpeg'
-import jagadeeshImg from '../assets/committee/jagadeesh.png'
-import pradeepImg from '../assets/committee/pradeep.jpeg'
-import prasantImg from '../assets/committee/prasant.png'
-import rkReddy from '../assets/committee/rkReddy.jpeg'
+import dineshImg from '../assets/committee/dinesh.png'
+import altImg from '../assets/committee/alt.jpg'
+
+
 
 
 
@@ -17,15 +12,18 @@ export default function Committee(){
   const members = siteAssets.committeeMembers
   // Advisory committee names (use same portrait style as committee members)
   const advisoryMembers = [
-    { name: 'Srinivas Goud', role: '', phone: '+91 9036397648', img: srinivasGoud },
-    { name: 'Nageshwar Rao', role: '', phone: '+91 7842422288', img: nageshwar },
-    { name: 'Vishnu', role: '', phone: '+91 9014249898', img: vishnuImg },
-    { name: 'Ravi', role: '', phone: '+91 7382460633', img: raviImg },
-    { name: 'Srinivas', role: '', phone: '+91 9000099243', img: srinivasImg },
-    { name: 'Jagadeesh', role: '', phone: '+91 9247366539', img: jagadeeshImg },
-    { name: 'Pradeep', role: '', phone: '+91 9052949582', img: pradeepImg },
-    { name: 'Prashanth', role: '', phone: '+91 9494645460', img: prasantImg },
-    { name: 'RK Reddy', role: '', phone: '+91 9347392340', img: rkReddy }
+    { name: 'Naga vardhan', role: '', phone: '+91 9160962430', img: altImg },
+    { name: 'Vishwanath', role: '', phone: '+91 9949901512', img: altImg },
+    { name: 'Shekar Chaganti', role: '', phone: '+91 9966155440', img: altImg },
+    { name: 'Sandeep', role: '', phone: '+91 6303054827', img: altImg },
+    { name: 'Harish', role: '', phone: '+91 9666791115', img: altImg },
+    { name: 'Ravinder', role: '', phone: '+91 8142549091', img: altImg },
+    { name: 'Arun Yadav', role: '', phone: '+91 9966319988', img: altImg },
+    { name: 'Arun Goud', role: '', phone: '+91 9010000778', img: altImg },
+    { name: 'Srinivas', role: '', phone: '+91 9885640480', img: altImg },
+     { name: 'Harsha', role: '', phone: '+91 9912468333', img: altImg },
+    { name: 'Kumar', role: '', phone: '+91 9000283108', img: altImg },
+    { name: 'RC Reddy', role: '', phone: '+91 9491514272  ', img: altImg }
 
   ]
   return (

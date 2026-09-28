@@ -1,7 +1,9 @@
 import React from 'react'
 import { siteConfig } from '../data/siteConfig'
 
-const vishnuiImg = new URL('../assets/vishnu.jpeg', import.meta.url).href
+// const vishnuiImg = new URL('../assets/vishnu.jpeg', import.meta.url).href
+import dineshImg from '../assets/committee/dinesh.png'
+
 
 export default function Footer(){
   return (
@@ -12,13 +14,13 @@ export default function Footer(){
             <div className="flex items-center justify-between gap-4">
               <div className="flex-1 text-left">
                 <div className="text-sm">© {new Date().getFullYear()} {siteConfig.associationName}</div>
-                <div className="text-sm mt-1">Developed By: <span className="font-semibold text-amber-200">Vishnu Choutapelly</span></div>
-                <div className="text-sm mt-1">Contact: <a className="underline" href="tel:+919014249898">+91-9014249898</a></div>
+                <div className="text-sm mt-1">Developed By: <span className="font-semibold text-amber-200">Dinesh Varma</span></div>
+                <div className="text-sm mt-1">Contact: <a className="underline" href="tel:+919959681416">+91-9959681416</a></div>
               </div>
 
               <div className="flex-shrink-0">
                 <div className="w-20 h-20 md:w-28 md:h-28 rounded-full overflow-hidden bg-white/10 p-1 shadow-inner">
-                  <img src={vishnuiImg} alt="Vishnu" className="w-full h-full object-cover rounded-full" />
+                  <img src={dineshImg} alt="Dinesh Varma" className="w-full h-full object-cover rounded-full" />
                 </div>
               </div>
             </div>
