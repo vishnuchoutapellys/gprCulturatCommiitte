@@ -35,7 +35,25 @@ body::before{
 .devotional-accent{background:linear-gradient(90deg,var(--saffron),var(--gold));color:white}
 
 /* Strong devotional gradient: maroon -> saffron -> gold */
-.devotional-gradient{background:linear-gradient(90deg,var(--maroon),var(--saffron),var(--gold));color:white}
+/* .devotional-gradient{background:linear-gradient(90deg,var(--maroon),var(--saffron),var(--gold));color:white} */
+  .devotional-gradient{background: linear-gradient(90deg, #54b457de, var(--saffron), var(--gold)); color:white}
+
+/* Reusable devotional button matching the header/footer gradient */
+/* Devotional button style restored: gradient matching header/footer */
+.devotional-btn{
+  background: linear-gradient(90deg, #54b457de, var(--saffron), var(--gold));
+  color: #fff !important;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  box-shadow: 0 6px 12px rgba(84,72,87,0.08);
+  transition: transform 120ms ease, filter 120ms ease;
+}
+.devotional-btn:hover{ transform: translateY(-1px); filter: brightness(1.03); }
+.devotional-btn:active{ transform: translateY(0); }
+.devotional-btn:focus{ outline: 3px solid rgba(124,10,2,0.15); outline-offset: 3px }
 
 /* Utility background for solid maroon where needed */
 .bg-maroon{background:var(--maroon)}
@@ -96,4 +114,73 @@ html{scroll-behavior:smooth}
   .hero-bg{ padding-top:3.5rem; padding-bottom:1.25rem }
   .hero-bg .hero-content{ display:flex; flex-direction:column; justify-content:center; align-items:center; min-height:calc(100vh - 4rem) }
   .hero-bg .hero-content .text-white{ text-align:center }
+}
+/* Custom card styling to match the requested look */
+/* .card-custom{
+  border: 1px solid #897373 !important;
+  color: #5e2f2f;
+  border-radius: 8px;
+  padding-left: 5px;
+  background-color: antiquewhite;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+  background-clip: padding-box;
+} */
+
+/* Ensure card inner text doesn't overflow the rounded background */
+/* .card-custom img{ border-radius: 6px; } */
+
+/* Celebration Highlights card styling */
+.highlight-card{
+  border: 2px solid #897373 !important;
+  border-radius: 8px;
+  background-color: antiquewhite;
+  color: #5e2f2f;
+  padding-left: 5px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+  overflow: hidden; /* ensure rounded border clips children */
+  background-clip: padding-box;
+}
+
+.highlight-card img{
+  /* keep image behind content and covered */
+  transition: transform 300ms ease;
+}
+.highlight-card:hover img{ transform: scale(1.03); }
+
+.highlight-card-content{
+  /* make the content sit on its own panel so text is always readable */
+  /* background: linear-gradient(180deg, rgba(255,250,245,0.96), rgba(249,243,238,0.9)); */
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.04) inset;
+}
+
+.highlight-card-content .font-semibold{
+  /* Title styling to appear like the image example */
+  display: inline-block;
+  background: antiquewhite;
+  padding: 6px 12px;
+  border-radius: 10px;
+  color: #5e2f2f;
+  border: 1px solid rgba(137,115,115,0.25);
+}
+
+/* Pinned badge used for highlight titles */
+.highlight-badge{
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  z-index: 30;
+  background: #f7efe7; /* soft cream */
+  color: #5e2f2f;
+  padding: 6px 12px;
+  border-radius: 18px;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  border: 1px solid Black;
+}
+
+/* Small screens: reduce padding so cards fit neatly */
+@media (max-width: 640px){
+  .highlight-card-content{ padding: 1rem !important; min-height: 140px !important }
+  .highlight-card .font-semibold{ font-size: 1.05rem }
 }

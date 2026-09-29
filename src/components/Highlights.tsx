@@ -31,7 +31,7 @@ export default function Highlights(){
         {items.map(i=> (
           <div
             key={i.title}
-            className={`relative overflow-hidden rounded shadow hover:-translate-y-1 transition-transform bg-white`}
+            className={`highlight-card relative overflow-hidden rounded shadow hover:-translate-y-1 transition-transform bg-white`}
           >
             {i.image && (
               <>
@@ -45,11 +45,14 @@ export default function Highlights(){
             )}
 
             <div
-              className={`relative p-6 md:p-8 min-h-[160px] md:min-h-[320px] ${i.image ? 'text-white' : 'text-slate-800 bg-white'} z-20`}
+              className={`highlight-card-content relative p-6 md:p-8 min-h-[160px] md:min-h-[320px] ${i.image ? 'text-white' : 'text-slate-800 bg-white'} z-20`}
               style={i.image ? { textShadow: '0 1px 2px rgba(0,0,0,0.55)' } : undefined}
             >
+              {/* Badge/title pinned to top-left */}
+              <div className="highlight-badge">{i.title}</div>
+
               <div className="text-3xl">{i.icon}</div>
-              <div className="font-semibold mt-2">{i.title}</div>
+              <div className="mt-2" aria-hidden />
               <div className="text-sm mt-1" style={i.image ? {color:'rgba(255,255,255,0.92)'} : undefined}>{i.desc}</div>
             </div>
           </div>
