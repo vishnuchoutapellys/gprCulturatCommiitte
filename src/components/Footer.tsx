@@ -9,7 +9,7 @@ export default function Footer(){
   return (
     <footer className="mt-8 py-3 rounded-lg overflow-hidden">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-white rounded-lg overflow-hidden" style={{background:'linear-gradient(90deg,var(--maroon),var(--saffron))', margin: '0 -1.5rem'}}>
+        <div className="text-white rounded-lg overflow-hidden" style={{ background: 'linear-gradient(90deg, #54b457de, var(--saffron), var(--gold))', color: 'white' }}>
           <div className="py-3 px-6">
             <div className="flex items-center justify-between gap-4">
               <div className="flex-1 text-left">

@@ -63,7 +63,7 @@ const events = [
   {date:'15/09/2026 - 23/09/2026',title:'Cultural Evening',time:'6:00 PM',desc:'Music and dance performances', image: culturalevent},
   {date:'17/09/2026',title:'Saraswati Pooja',time:'Evening 7:00 PM',desc:'Special ritual dedicated to Goddess Saraswati', image: saraswatiPoojaImg},
   {date:'18/09/2026',title:'Asta Ganapathi Pooja',time:'Evening 7:00 PM',desc:'Special ritual dedicated to the eight forms of Lord Ganapathi', image: AstaGanapathiPoojaImg},
-  {date:'19/09/2026',title:'Maha Ganapathi Homam',time:'Morning 7:00 AM',desc:'Special ritual dedicated to Lord Ganapathi', image: HomamImg},
+  {date:'19/09/2026',title:'Ganapathi Homam',time:'Morning 7:00 AM',desc:'Special ritual dedicated to Lord Ganapathi', image: HomamImg},
   {date:'20/09/2026',title:'Grand Anna Prasadam',time:'Evening 7:00 PM',desc:'Community annadanam and cultural programs', image: annadanamImg},
   {date:'21/09/2026',title:'Stalls & Magical Show',time:'All Day',desc:'Various stalls and activities for participants', image: stallaImg},
   {date:'22/09/2026',title:'Kunkuma Archana',time:'Evening',desc:'Special ritual involving Kunkuma Archana', image: karchanaImg},
