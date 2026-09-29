@@ -13,9 +13,9 @@ export default function Footer(){
           <div className="py-3 px-6">
             <div className="flex items-center justify-between gap-4">
               <div className="flex-1 text-left">
-                <div className="text-sm">© {new Date().getFullYear()} {siteConfig.associationName}</div>
-                <div className="text-sm mt-1">Developed By: <span className="font-semibold text-amber-200">Dinesh Varma</span></div>
-                <div className="text-sm mt-1">Contact: <a className="underline" href="tel:+919959681416">+91-9959681416</a></div>
+                <div className="text-sm">©{new Date().getFullYear()} GPR Cultural Committee</div>
+                <div className="text-sm mt-1">Developed By:- <span className="font-semibold text-amber-200">Dinesh Varma</span></div>
+                <div className="text-sm mt-1">Contact: <a className="underline" href="tel:+919959681416">+919959681416</a></div>
               </div>
 
               <div className="flex-shrink-0">
