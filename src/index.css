@@ -35,8 +35,8 @@ body::before{
 .devotional-accent{background:linear-gradient(90deg,var(--saffron),var(--gold));color:white}
 
 /* Strong devotional gradient: maroon -> saffron -> gold */
-/* .devotional-gradient{background:linear-gradient(90deg,var(--maroon),var(--saffron),var(--gold));color:white} */
-  .devotional-gradient{background: linear-gradient(90deg, #54b457de, var(--saffron), var(--gold)); color:white}
+.devotional-gradient{background:linear-gradient(90deg,var(--maroon),var(--saffron),var(--gold));color:white}
+  /* .devotional-gradient{background: linear-gradient(90deg, #54b457de, var(--saffron), var(--gold)); color:white} */
 
 /* Reusable devotional button matching the header/footer gradient */
 /* Devotional button style restored: gradient matching header/footer */
